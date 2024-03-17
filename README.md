@@ -18,7 +18,20 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+def swap(a,b):
+    t=a
+    a=b
+    b=t
+    return a,b
+a=input()
+b=input()
+a,b=swap(a,b)
+```
 
+## output:
+
+![alt text](<Screenshot (182).png>)
 
 
 ## RESULT:
